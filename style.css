@@ -1,0 +1,134 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(182, 179, 179);
+  }
+  .upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .location{
+    color: lightgray;
+    font-size: large;
+    font: bold;
+  }
+
+  
+  .main-box {
+    background: rgb(109, 104, 104);
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    padding: 10px 15px;
+    width: 300px;
+    color: #333;
+  }
+  
+  .search-bar .icon {
+    font-size: 20px;
+    color: #333;
+    margin: 0 8px;
+  }
+  
+  .search-bar input {
+    border: none;
+    background: transparent;
+    flex: 1;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .first-box {
+    width: 300px;
+    background-color: rgb(80, 78, 78);
+    border-radius: 20px;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .temp1 {
+    font-size: 48px;
+    font-weight: 300;
+  }
+  
+  .temp2 {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .wihu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .wind {
+    flex: 1;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .wind1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .wind1 svg {
+    width: 24px;
+    height: 24px;
+    color: #00796b;
+  }
+  
+  .wind2 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .tempiconlist{
+    display: flex;
+    gap: 10px;
+  }
+
+
+
+  .image{
+    width: 200px;
+  }
+
+
+  
