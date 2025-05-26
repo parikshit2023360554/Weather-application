@@ -1,2 +1,3 @@
 # Weather-application
-A modern, responsive weather application built with React and Styled Components. It provides current weather conditions, a 5-day forecast, and allows users to search for cities, use their current location, and save favorite locations. Weather data is powered by the OpenWeatherMap API.
+A responsive weather application built using HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeatherMap API and displays current temperature, weather conditions, location, and other relevant details. Users can search by city name to get instant updates on weather conditions around the world.....
+
