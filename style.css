@@ -129,6 +129,32 @@
     gap: 10px;
   }
 
+  .sun{
+    flex: 1;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    gap: 20px;
+
+  }
+
+  .sun-rise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sun-set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
 
 
   .image{
