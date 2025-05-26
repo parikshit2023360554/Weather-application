@@ -79,6 +79,11 @@
     font-size: 16px;
     color: #ccc;
   }
+  .wihu-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   
   .wihu {
     display: flex;
